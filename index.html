@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Current Time</title>
+    <style>
+
+        .clock{
+            width: 400px;
+            background-color: crimson;
+            color: white;
+            border-radius: 12px;
+            padding: 10px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+        }
+        .clock h2{
+            font-weight: bold;
+            font-size: 30px;
+        }
+        .clock p{
+            font-size: 30px;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <div class="clock">
+        <h2>Today:</h2>
+        <p id="dateID"></p>
+        <h2>Time:</h2>
+        <p id="timeID"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
